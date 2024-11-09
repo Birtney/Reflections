@@ -127,7 +127,7 @@
         // 添加自定义样式
         addStyle(CUSTOM_CSS)
 
-        加载圣·嘉然()
+        loadJiaRan()
 
         console.log("all done.")
     });
@@ -157,7 +157,7 @@
 
     let pio_reference // pio 实例
 
-    function 加载圣·嘉然() {
+    function loadJiaRan() {
         pio_reference = new Paul_Pio(initConfig)
 
         pio_alignment = "right" // 右下角
